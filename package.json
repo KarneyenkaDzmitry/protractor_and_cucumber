@@ -1,0 +1,19 @@
+{
+  "name": "protractor_and_cucumber",
+  "version": "1.0.0",
+  "description": "first steps with protractor and cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/.bin/cucumber-js ./features -r ./features/step_definitions/",
+    "postinstall": "mk dir resources",
+    "start": "node index.js"
+  },
+  "author": "Dzmitry_Karneyenka",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "^4.2.1",
+    "protractor-cucumber-framework": "^6.0.0"
+  }
+}
